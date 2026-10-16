@@ -1,15 +1,15 @@
 # dsh-avatar — DSH 聊天头像插件
 
 **中文** | [English](#english)
+<img width="1053" height="1078" alt="861f85857a275437383ae96e19fe6c16" src="https://github.com/user-attachments/assets/2bb2783b-6410-4469-a6ff-84bb64a74716" />
+<img width="1493" height="1232" alt="3d5118d9ad0bbf6368fb51af88e17757" src="https://github.com/user-attachments/assets/7071bf83-f463-41d6-bdb2-7f3384594efd" />
 
 给 DeepSeek Harness 的聊天界面加上**自定义头像**：你的消息右侧显示你的头像，Agent 的每次发言左侧显示 Agent 头像，就像微信 / QQ 一样。
 
 - **圆角矩形头像**，上传图片后可拖动、缩放裁剪，右侧**实时预览最终效果**
-- **用户头像**在消息**右侧**，**Agent 头像**在发言**左侧**，随行滚动**不漂移**
-- **每次 Agent 发言只显示一次头像**；工具调用**不会**重复出现头像
 - 用户与 Agent 都支持「**全局**」与「**本会话**」，**本会话优先于全局**
 - 新会话默认使用 **DSH 官方黑色鲸鱼**图标
-- **点击头像即可设置**，界面上没有多余的常驻按钮
+- **点击头像即可设置**
 - 支持 **GIF / APNG / 动态 WebP 动图**（保留动画）
 - **不替换官方界面**：官方气泡、Markdown、附件、操作按钮全部原样保留
 
