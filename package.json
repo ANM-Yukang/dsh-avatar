@@ -1,0 +1,24 @@
+{
+  "name": "dsh-avatar",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "聊天头像：用户消息右侧、Agent 发言左侧显示圆角矩形头像，支持上传裁剪实时预览与动图，用户与 Agent 均可设为全局或仅本会话（本会话优先），新会话默认官方鲸鱼。",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
